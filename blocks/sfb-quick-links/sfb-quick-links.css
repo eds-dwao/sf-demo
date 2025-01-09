@@ -230,3 +230,16 @@
   margin: 0 !important;
   padding: 0 12px;
 }
+@media only screen and (max-width: 768px) {
+  .sfb-quick-links-wrapper::before
+  {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ql-col-1, .ql-col-2, .ql-col-4, .ql-col-5
+  {
+    max-width: 100% !important;
+  }
+}

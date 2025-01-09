@@ -162,4 +162,8 @@
   .columns .button-container a {
     width: 100%;
   }
+  .columns > div > .columns-img-col
+  {
+    width: fit-content;
+  }
 }
